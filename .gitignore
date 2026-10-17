@@ -1,0 +1,5 @@
+/target
+.idea/
+dist/
+/plugins-src
+crates/terminism-shell/src/native_plugins/privacy.rs

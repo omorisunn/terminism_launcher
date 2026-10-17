@@ -1,0 +1,18 @@
+[package]
+name = "wasm-hello-rs"
+version = "0.1.0"
+edition = "2024"
+license = "GPL-3.0"
+repository = "https://github.com/omorisunn/terminism_launcher"
+description = "Example terminism Wasm plugin written in Rust"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+terminism-wasm-sdk = { path = "../../crates/terminism-wasm-sdk" }
+
+[workspace]
+
+[profile.release]
+strip = "symbols"

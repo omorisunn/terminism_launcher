@@ -1,0 +1,8 @@
+[alias]
+xtask = "run -p xtask --"
+
+[env]
+# MSVC link.exe fails to create its temp lnk files in the user TEMP on some
+# Windows hosts; keep linker scratch files inside the workspace instead.
+TMP = { value = "target", relative = true }
+TEMP = { value = "target", relative = true }

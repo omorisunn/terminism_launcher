@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>terminism launcher</title>
+  <defs>
+    <linearGradient id="faceTop" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#D9FF8E"/>
+      <stop offset="0.3" stop-color="#BDF45F"/>
+      <stop offset="0.6" stop-color="#9BE63C"/>
+      <stop offset="0.85" stop-color="#74C82B"/>
+      <stop offset="1" stop-color="#57A81F"/>
+    </linearGradient>
+    <linearGradient id="faceLeft" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#4ED06C"/>
+      <stop offset="0.3" stop-color="#2DAA52"/>
+      <stop offset="0.6" stop-color="#18793E"/>
+      <stop offset="0.85" stop-color="#0C542C"/>
+      <stop offset="1" stop-color="#06371D"/>
+    </linearGradient>
+    <linearGradient id="faceRight" x1="0.1" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#1C8B58"/>
+      <stop offset="0.32" stop-color="#0F6A41"/>
+      <stop offset="0.62" stop-color="#0A4C2F"/>
+      <stop offset="0.85" stop-color="#052E1D"/>
+      <stop offset="1" stop-color="#02160E"/>
+    </linearGradient>
+    <radialGradient id="topLight" cx="0.3" cy="0.18" r="0.72">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.22"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="topSheen" x1="0.1" y1="1" x2="0.9" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.4" stop-color="#FFFFFF" stop-opacity="0.12"/>
+      <stop offset="0.52" stop-color="#FFFFFF" stop-opacity="0.28"/>
+      <stop offset="0.64" stop-color="#FFFFFF" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="topFar" x1="0.4" y1="0" x2="1" y2="0.5">
+      <stop offset="0" stop-color="#256E1A" stop-opacity="0"/>
+      <stop offset="1" stop-color="#256E1A" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="topTrim" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#F4FFC8" stop-opacity="0.8"/>
+      <stop offset="0.6" stop-color="#F4FFC8" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#F4FFC8" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="leftGloss" x1="0" y1="0" x2="0.06" y2="1">
+      <stop offset="0" stop-color="#EFFFF0" stop-opacity="0.15"/>
+      <stop offset="0.36" stop-color="#EFFFF0" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="rightShade" x1="0.1" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#02170F" stop-opacity="0"/>
+      <stop offset="0.55" stop-color="#02170F" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#02170F" stop-opacity="0.34"/>
+    </linearGradient>
+    <linearGradient id="screenFill" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#0A4025" stop-opacity="0.72"/>
+      <stop offset="0.55" stop-color="#042817" stop-opacity="0.86"/>
+      <stop offset="1" stop-color="#01130B" stop-opacity="0.94"/>
+    </linearGradient>
+    <radialGradient id="screenGlow" cx="0.5" cy="0.6" r="0.55">
+      <stop offset="0" stop-color="#8CFFB8" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#8CFFB8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="badgeFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#155C41"/>
+      <stop offset="0.5" stop-color="#0B3A29"/>
+      <stop offset="1" stop-color="#04170F"/>
+    </linearGradient>
+    <linearGradient id="letterFill" x1="0.1" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.6" stop-color="#F4FBEE"/>
+      <stop offset="1" stop-color="#DCEFCF"/>
+    </linearGradient>
+    <linearGradient id="rimTop" x1="0" y1="0" x2="0.55" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.72"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.06"/>
+    </linearGradient>
+    <filter id="blurSoft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <filter id="blurLetter" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="1.6"/>
+    </filter>
+    <filter id="blurScreen" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+    <clipPath id="cubeClip"><path d="M182.49 143.96 L287.51 83.04 Q310 70 332.49 83.04 L437.51 143.96 Q460 157 460 183 L460 301 Q460 327 437.51 340.04 L332.49 400.96 Q310 414 287.51 400.96 L182.49 340.04 Q160 327 160 301 L160 183 Q160 157 182.49 143.96 Z"/></clipPath>
+    <clipPath id="topClip"><path d="M310 70 L460 157 L310 244 L160 157 Z"/></clipPath>
+    <clipPath id="leftClip"><path d="M160 157 L310 244 L310 414 L160 327 Z"/></clipPath>
+    <clipPath id="rightClip"><path d="M310 244 L460 157 L460 327 L310 414 Z"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#cubeClip)">
+    <path d="M310 70 L460 157 L310 244 L160 157 Z" fill="url(#faceTop)"/>
+    <path d="M160 157 L310 244 L310 414 L160 327 Z" fill="url(#faceLeft)"/>
+    <path d="M310 244 L460 157 L460 327 L310 414 Z" fill="url(#faceRight)"/>
+
+    <g clip-path="url(#topClip)">
+      <rect x="150" y="40" width="340" height="250" fill="url(#topLight)"/>
+      <rect x="150" y="40" width="340" height="250" fill="url(#topFar)"/>
+      <rect x="150" y="40" width="340" height="250" fill="url(#topSheen)"/>
+      <path d="M160 157 L310 70 L460 157" fill="none" stroke="url(#topTrim)" stroke-width="7" stroke-linejoin="round"/>
+    </g>
+    <g clip-path="url(#leftClip)">
+      <rect x="150" y="150" width="170" height="280" fill="url(#leftGloss)"/>
+    </g>
+    <g clip-path="url(#rightClip)">
+      <rect x="300" y="150" width="170" height="280" fill="url(#rightShade)"/>
+    </g>
+
+    <g fill="none" stroke-linejoin="round">
+      <path d="M160 157 L310 244 L460 157" stroke="#EAFFB8" stroke-opacity="0.6" stroke-width="2.5"/>
+      <path d="M160 160 L310 247 L460 160" stroke="#02160D" stroke-opacity="0.24" stroke-width="3"/>
+      <path d="M310 244 L310 414" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="1.5"/>
+      <path d="M160 327 L310 414" stroke="#02160D" stroke-opacity="0.28" stroke-width="2.5"/>
+      <path d="M310 414 L460 327" stroke="#02160D" stroke-opacity="0.22" stroke-width="2.5"/>
+    </g>
+
+    <g transform="matrix(1.5 0.87 0 1.7 160 157)">
+      <rect x="14" y="17" width="76" height="72" rx="7" fill="#01130A" opacity="0.45" filter="url(#blurScreen)"/>
+      <rect x="12" y="14" width="76" height="72" rx="7" fill="url(#screenFill)"/>
+      <rect x="12" y="14" width="76" height="72" rx="7" fill="url(#screenGlow)"/>
+      <rect x="12" y="14" width="76" height="72" rx="7" fill="none" stroke="#DFFFC8" stroke-opacity="0.42" stroke-width="1.2"/>
+      <path d="M19 15.2 H81" fill="none" stroke="#FFFFFF" stroke-opacity="0.38" stroke-width="1.4"/>
+      <g fill="none" stroke="#9CFFC0" stroke-opacity="0.3" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" filter="url(#blurScreen)">
+        <path d="M30 37 L49 50 L30 63"/>
+        <path d="M57 63 L73 63"/>
+      </g>
+      <g fill="none" stroke="#F8FFF2" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M30 37 L49 50 L30 63"/>
+        <path d="M57 63 L73 63"/>
+      </g>
+    </g>
+  </g>
+
+  <path d="M182.49 143.96 L287.51 83.04 Q310 70 332.49 83.04 L437.51 143.96 Q460 157 460 183 L460 301 Q460 327 437.51 340.04 L332.49 400.96 Q310 414 287.51 400.96 L182.49 340.04 Q160 327 160 301 L160 183 Q160 157 182.49 143.96 Z" fill="none" stroke="url(#rimTop)" stroke-width="2.5"/>
+  <path d="M182.49 143.96 L287.51 83.04 Q310 70 332.49 83.04 L437.51 143.96 Q460 157 460 183 L460 301 Q460 327 437.51 340.04 L332.49 400.96 Q310 414 287.51 400.96 L182.49 340.04 Q160 327 160 301 L160 183 Q160 157 182.49 143.96 Z" fill="none" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1"/>
+
+  <rect x="72" y="306" width="132" height="132" rx="34" fill="#01100A" opacity="0.38" filter="url(#blurSoft)"/>
+  <rect x="72" y="304" width="132" height="132" rx="34" fill="url(#badgeFill)"/>
+  <rect x="72" y="304" width="132" height="132" rx="34" fill="none" stroke="#FFFFFF" stroke-opacity="0.26" stroke-width="1.5"/>
+  <g fill="#02130C" opacity="0.45" filter="url(#blurLetter)" transform="translate(0,2)">
+    <rect x="102" y="331" width="72" height="20" rx="5"/>
+    <rect x="128" y="331" width="20" height="78" rx="5"/>
+  </g>
+  <g fill="url(#letterFill)">
+    <rect x="102" y="330" width="72" height="20" rx="5"/>
+    <rect x="128" y="330" width="20" height="78" rx="5"/>
+  </g>
+</svg>

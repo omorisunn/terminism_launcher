@@ -1,0 +1,8 @@
+id = "zh-cn"
+name = "简体中文"
+version = "0.0.1"
+description = "Simplified Chinese translations for the built-in UI"
+provides = []
+subscribe = []
+ui_grant = []
+data_grant = []

@@ -1,0 +1,10 @@
+id = "wasm-hello"
+name = "Wasm Hello"
+version = "0.0.1"
+description = "Minimal wasm guest that logs and echoes events"
+kind = "wasm"
+provides = []
+subscribe = ["hello.ping"]
+ui_grant = []
+data_grant = []
+cli_grant = []

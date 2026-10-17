@@ -1,0 +1,10 @@
+# terminism default theme
+# layering: inline props beat these rules; specificity = path segments > kind > pseudo
+
+Button { color: white; }
+/home/lock { color: gray; }
+/home/hint { color: gray; }
+/instances/split/tree/actions/add { hint: "Add .minecraft"; }
+/instances/split/tree/actions/refresh { hint: "Refresh .minecraft roots"; }
+/account/split/detail/layout/adds { hint: "Add or sign in an account"; }
+/account/split/list { hint: "Select an account"; }

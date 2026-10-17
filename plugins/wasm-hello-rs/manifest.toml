@@ -1,0 +1,10 @@
+id = "wasm-hello-rs"
+name = "Wasm Hello (Rust)"
+version = "0.1.0"
+description = "SDK-built guest that greets and echoes events"
+kind = "wasm"
+provides = []
+subscribe = ["plugin.loaded"]
+ui_grant = []
+data_grant = []
+cli_grant = []

@@ -1,0 +1,12 @@
+[package]
+name = "terminism-wasm-sdk"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Guest SDK for terminism wasm plugins"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
