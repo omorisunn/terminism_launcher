@@ -8,7 +8,6 @@ A terminal-UI Minecraft: Java Edition launcher written in Rust, built around a p
 
 - TUIs
 - Native, Rhai and Wasm plugins
-- Forge, NeoForge, Fabric and LiteLoader profiles are detected and launched
 
 ## Requirements
 
